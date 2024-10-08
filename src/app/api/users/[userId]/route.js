@@ -11,3 +11,16 @@ export function GET(request, content) {
     { status: 200 }
   );
 }
+
+export async function PUT(request, content) {
+  let payload = await request.json();
+  let userId = content.params.userId;
+  console.log(userId);
+  if (!payload.name || !payload.age || !payload.mail) {
+    return NextResponse.json(
+      { result: "required field not found", success: false },
+      { status: 400 }
+    );
+  }
+  return NextResponse.json({ result: payload, success: true }, { status: 200 });
+}
