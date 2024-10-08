@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ButtonComponent from "./ButtonComponent";
 
 async function getusers() {
   let data = await fetch("http://localhost:3000/api/users");
@@ -18,7 +19,7 @@ const Users = async () => {
             <span
               style={{
                 display: "inline-block",
-                width: "200px",
+                width: "180px",
                 padding: "5px",
               }}
             >
@@ -28,6 +29,7 @@ const Users = async () => {
           <Link href={`/users/${user.id}/update`}>
             <span>Edit</span>
           </Link>
+          <ButtonComponent id={user.id} />
         </div>
       ))}
     </div>
