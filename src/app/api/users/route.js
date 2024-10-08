@@ -1,8 +1,8 @@
-import { NextResponse } from "next/server";
+import { user } from "@/util/db";
 
-export async function GET(request) {
-  return NextResponse.json(
-    { name: "yogesh", age: 54, city: "noida", from: "rajasthan" },
-    { status: 200 }
-  );
+const { NextResponse } = require("next/server");
+
+export function GET() {
+  const data = user;
+  return NextResponse.json(data, { status: 200 });
 }

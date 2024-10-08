@@ -1,0 +1,92 @@
+export const user = [
+  {
+    id: 1,
+    name: "John Doe",
+    age: 25,
+    mail: "john.doe@example.com",
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    age: 30,
+    mail: "jane.smith@example.com",
+  },
+  {
+    id: 3,
+    name: "Michael Johnson",
+    age: 22,
+    mail: "michael.johnson@example.com",
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    age: 28,
+    mail: "emily.davis@example.com",
+  },
+  {
+    id: 5,
+    name: "David Brown",
+    age: 35,
+    mail: "david.brown@example.com",
+  },
+  {
+    id: 6,
+    name: "Sarah Wilson",
+    age: 27,
+    mail: "sarah.wilson@example.com",
+  },
+  {
+    id: 7,
+    name: "James Lee",
+    age: 32,
+    mail: "james.lee@example.com",
+  },
+  {
+    id: 8,
+    name: "Sophia Martinez",
+    age: 24,
+    mail: "sophia.martinez@example.com",
+  },
+  {
+    id: 9,
+    name: "Benjamin Clark",
+    age: 29,
+    mail: "benjamin.clark@example.com",
+  },
+  {
+    id: 10,
+    name: "Olivia Taylor",
+    age: 26,
+    mail: "olivia.taylor@example.com",
+  },
+  {
+    id: 11,
+    name: "Christopher Harris",
+    age: 31,
+    mail: "christopher.harris@example.com",
+  },
+  {
+    id: 12,
+    name: "Ava White",
+    age: 23,
+    mail: "ava.white@example.com",
+  },
+  {
+    id: 13,
+    name: "Ethan Miller",
+    age: 34,
+    mail: "ethan.miller@example.com",
+  },
+  {
+    id: 14,
+    name: "Mia Allen",
+    age: 21,
+    mail: "mia.allen@example.com",
+  },
+  {
+    id: 15,
+    name: "William Scott",
+    age: 40,
+    mail: "william.scott@example.com",
+  },
+];
