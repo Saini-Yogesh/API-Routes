@@ -13,9 +13,22 @@ const Users = async () => {
       <h1> Users List</h1>
       <br />
       {users.map((user) => (
-        <Link href={`/users/${user.id}`}>
-          <h1> {user.name}</h1>{" "}
-        </Link>
+        <div>
+          <Link href={`/users/${user.id}`}>
+            <span
+              style={{
+                display: "inline-block",
+                width: "200px",
+                padding: "5px",
+              }}
+            >
+              {user.name}
+            </span>
+          </Link>
+          <Link href={`/users/${user.id}/update`}>
+            <span>Edit</span>
+          </Link>
+        </div>
       ))}
     </div>
   );
